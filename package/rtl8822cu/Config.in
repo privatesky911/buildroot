@@ -1,0 +1,8 @@
+config BR2_PACKAGE_RTL8822CU
+	bool "rtl8822cu"
+	depends on !BR2_s390x
+	depends on BR2_LINUX_KERNEL
+	help
+	  rtl8822cu wifi driver
+
+	  https://github.com/morrownr/8822bu-20210702
